@@ -1,0 +1,12 @@
+.external {
+    background-color: aqua;
+    color: deeppink;
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-family: cursive;
+    border: 3px dotted blueviolet;
+    border-radius: 0.5cm;
+    padding: 5px;
+    margin:25px;
+}
