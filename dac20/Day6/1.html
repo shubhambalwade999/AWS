@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=div, initial-scale=1.0">
+    <title>Document</title>
+    <script src="1.js"></script>
+</head>
+
+<body>
+    <div>
+        <div>Someone Post Here </div>
+
+        <div style="margin-top: 4px;margin-bottom: 4px;">
+            <input type="text" value="hello shubham" id="inputId" placeholder="type comment here" />
+        </div>
+
+        <button id="likeId" onclick="like()">Like 1</button>
+        <button id="commentId" onclick="comment()">Comment Now</button>
+
+        <!--comment Box-->
+        <div id="commentBox">
+            <!--Add comments here-->
+            <!--reference comment-->
+            <div style="display: flex; 
+            justify-content:space-between;align-items: center; visibility: hidden; " id="refComment">
+
+                <div>sample comment</div>
+                <button onclick="deleteComment(this)">Delete</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

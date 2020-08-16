@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=div, initial-scale=1.0">
+    <title>MouseOver-MouseOut</title>
+    <script src="1.js"></script>
+    <style>
+        .parentdiv {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .children {
+            font-size: 60px;
+            background: royalblue;
+            border-radius: 8px;
+            padding: 18px;
+            color: chartreuse;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="parentdiv" id="id1">
+        <div class="children" id="id2" onmouseover="handleMouseOver()" onmouseout="handleMouseOut()">
+            hello world
+        </div>
+    </div>
+</body>
+
+</html>
